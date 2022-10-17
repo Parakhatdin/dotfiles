@@ -1,7 +1,21 @@
+"         
+" ██╗███╗   ██╗██╗████████╗██╗   ██╗██╗███╗   ███╗
+" ██║████╗  ██║██║╚══██╔══╝██║   ██║██║████╗ ████║
+" ██║██╔██╗ ██║██║   ██║   ██║   ██║██║██╔████╔██║
+" ██║██║╚██╗██║██║   ██║   ╚██╗ ██╔╝██║██║╚██╔╝██║
+" ██║██║ ╚████║██║   ██║██╗ ╚████╔╝ ██║██║ ╚═╝ ██║
+" ╚═╝╚═╝  ╚═══╝╚═╝   ╚═╝╚═╝  ╚═══╝  ╚═╝╚═╝     ╚═╝
+" 
+"         @parakhatdin
+
+
 call plug#begin("~/.vim/plugged")
     Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
     Plug 'tpope/vim-commentary'
+    Plug 'lewis6991/gitsigns.nvim'
 call plug#end()
+
+lua require('gitsigns').setup()
 
 
 set number

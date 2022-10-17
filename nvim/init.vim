@@ -28,4 +28,9 @@ set nobackup
 "set termguicolors
 set cursorline
 colorscheme tokyonight-moon
+let mapleader=','
 
+"NETRW
+let g:netrw_banner=0
+nnoremap <leader>dd :Lexplore %:p:h<CR>
+nnoremap <Leader>da :Lexplore<CR>

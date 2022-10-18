@@ -29,8 +29,17 @@ set nobackup
 set cursorline
 colorscheme tokyonight-moon
 let mapleader=','
+set hidden
 
 "NETRW
 let g:netrw_banner=0
-nnoremap <leader>dd :Lexplore %:p:h<CR>
+let g:netrw_liststyle=3
+let g:netrw_winsize=25
+let g:netrw_hide=1
 nnoremap <Leader>da :Lexplore<CR>
+nnoremap <Leader>dd :Lexplore %:p:h<CR>
+
+"Mapping
+nnoremap <Leader>b :ls<CR>
+nnoremap <Leader>bn :bn<CR>
+nnoremap <Leader>bp :bp<CR>

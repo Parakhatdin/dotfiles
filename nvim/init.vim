@@ -30,6 +30,7 @@ set cursorline
 colorscheme tokyonight-moon
 let mapleader=','
 set hidden
+set nowrap
 
 "NETRW
 let g:netrw_banner=0

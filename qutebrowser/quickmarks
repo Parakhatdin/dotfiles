@@ -1,0 +1,7 @@
+github https://github.com/
+alif grafana https://grafana.k8s.alifnasiya.uz/dashboards
+translate google https://translate.google.com/?sl=ru&tl=en&op=translate
+alif opensearch https://opensearch.k8s.alifnasiya.uz/app/data-explorer/discover#?_a=(discover:(columns:!(_source),isDirty:!f,sort:!()),metadata:(indexPattern:'7e7de1c0-1cc8-11ee-8c02-5dbf9d48f53b',view:discover))&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-15m,to:now))&_q=(filters:!(),query:(language:kuery,query:''))
+go learn with tests https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/hello-world
+Alif phpmyadmin http://localhost:8081/index.php?route=/table/sql&db=sv_credits&table=accial_failed_credits
+help qute://help/img/cheatsheet-big.png
